@@ -296,7 +296,6 @@ export const dataPricing = {
   ],
 };
 
-
 export const testimoniData = [
   {
     id: 1,
@@ -326,3 +325,48 @@ export const testimoniData = [
     department: "Working Mom",
   },
 ];
+
+export const dataFAQ = [
+  {
+    question: "How does delivery work?",
+    answer:
+      "We deliver fresh, healthy meals directly to your doorstep based on your selected schedule. You can choose your preferred delivery days and time slots during checkout.",
+  },
+  {
+    question: "Can I customize my meals?",
+    answer:
+      "Yes! You can customize your meal plan based on your dietary preferences, favorite ingredients, and nutritional goals. We offer a variety of options to suit your lifestyle.",
+  },
+  {
+    question: "What if I'm not home for delivery?",
+    answer:
+      "No worries! You can leave special delivery instructions during checkout. Our delivery team will follow your preferences to ensure your meals arrive safely.",
+  },
+  {
+    question: "Are the ingredients organic?",
+    answer:
+      "We prioritize fresh, high-quality ingredients sourced from trusted local suppliers. Whenever possible, we use organic produce to ensure the best quality for your meals.",
+  },
+  {
+    question: "Can I cancel anytime?",
+    answer:
+      "Yes! You can cancel your subscription at any time through your account dashboard. Please make sure to cancel before your next billing cycle to avoid additional charges.",
+  },
+];
+
+
+export const columns = [
+  {
+    title: "Menu",
+    links: ["All Meals", "High Protein", "Vegan", "Keto", "Gluten-Free"],
+  },
+  {
+    title: "Company",
+    links: ["About Us", "Our Story", "Careers", "Press", "Blog"],
+  },
+  {
+    title: "Support",
+    links: ["Contact Us", "FAQ", "Delivery Info", "Returns", "Track Order"],
+  },
+];
+export const legalLinks = ["Privacy Policy", "Terms of Service", "Cookie Policy"];

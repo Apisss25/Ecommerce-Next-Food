@@ -5,7 +5,7 @@ import { dataProcces } from "../../../Data";
 const ProccesSection = () => {
   return (
     <>
-      <section className="pb-15">
+      <section className="my-15">
         <div className="w-37.5 h-7.5 flex justify-center items-center rounded-full bg-[#E7F8F2] my-5 mx-auto">
           <p className="text-[#12B985] text-[14px] font-bitter">
             simple procces
@@ -26,7 +26,7 @@ const ProccesSection = () => {
           From Selection to Delivery in 3 easy steps.
         </p>
 
-        <div className="flex items-center justify-center gap-1 py-10">
+        <div className="flex items-center justify-center gap-1 my-20">
           {dataProcces.map((item, index) => {
             const Icon = item.icon;
 

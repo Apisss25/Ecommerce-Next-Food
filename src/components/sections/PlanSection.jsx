@@ -8,7 +8,7 @@ const PlanSection = () => {
   const Buttons = ["Daily", "Weekly", "Monthly"];
   const Periods = dataPricing[period];
   return (
-    <section>
+    <section className="my-15">
       <Title
         title="Choose Your Plan"
         description="Flexible pricing that works for your lifestyle"

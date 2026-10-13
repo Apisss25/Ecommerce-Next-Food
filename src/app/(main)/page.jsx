@@ -4,6 +4,7 @@ import ProccesSection from "@/components/sections/ProccesSection";
 import PopularSection from "@/components/sections/PopularSection";
 import PlanSection from "@/components/sections/PlanSection";
 import TestimoniSection from "@/components/sections/TestimoniSection";
+import AskSection from "@/components/sections/AskSection";
 const page = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const page = () => {
         <PopularSection />
         <PlanSection />
         <TestimoniSection />
+        <AskSection />
       </section>
     </>
   );
