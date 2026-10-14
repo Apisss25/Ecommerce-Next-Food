@@ -1,8 +1,10 @@
 import react from "react";
-export const contact = () => {
+const contact = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <h1 className="text-4xl">Contact Page</h1>
     </div>
   );
 };
+
+export default contact;

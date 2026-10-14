@@ -3,7 +3,7 @@ import Link from "next/link";
 import { DataNavbar } from "../../../Data";
 import TerraLogo from "../../../public/TerraLogo.png";
 import Button from "@/components/ui/Button";
-import { User } from "lucide-react";
+import { User,ShoppingCart } from "lucide-react";
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-[#FFFFFF] px-8 py-[10px] shadow-md">
@@ -65,15 +65,16 @@ const Navbar = () => {
         {/* Button */}
         <div className="flex items-center gap-4">
           <Button
-            title="Order Now"
+            title={<ShoppingCart size={20} />}
             rounded="20px"
             bg="#12B985"
             text="white"
-            width="100px"
+            width="40px"
             height="40px"
             shadow="0_6px_14px_rgba(18,185,133,0.22)"
             hoverBg="#2ed2a0"
             hoverShadow="0_12px_28px_rgba(18,185,133,0.32)"
+            hoverText="white"
             font="poppins"
             sizeText="14px"
           />
@@ -88,6 +89,7 @@ const Navbar = () => {
             shadow="0_6px_14px_rgba(18,185,133,0.22)"
             hoverBg="#2ed2a0"
             hoverShadow="0_12px_28px_rgba(18,185,133,0.32)"
+            hoverText="white"
             font="poppins"
             sizeText="14px"
           />

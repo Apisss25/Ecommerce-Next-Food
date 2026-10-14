@@ -1,5 +1,6 @@
 import CoffeeImage from "../../../public/Coffee_IMG_1.jpg";
 import Image from "next/image";
+import Button from "../ui/Button";
 const HeroSection = () => {
   return (
     <section className="relative overflow-hidden">
@@ -39,13 +40,37 @@ const HeroSection = () => {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 mt-10">
-              <button className="bg-[#12B985] hover:bg-[#2ed2a0] text-white px-8 py-4 rounded-full font-medium shadow-[0_10px_25px_rgba(18,185,133,0.30)] transition-all duration-500 hover:shadow-[0_15px_35px_rgba(18,185,133,0.45)]">
-                Build Your Plan
-              </button>
+              <Button
+                title="Build Your Plan"
+                rounded="45px"
+                bg="#28DF99"
+                text="black"
+                hoverText="white"
+                width="150px"
+                height="55px"
+                shadow="0_6px_14px_rgba(18,185,133,0.22)"
+                hoverBg="#2ed2a0"
+                hoverShadow="0_12px_28px_rgba(18,185,133,0.32)"
+                font="poppins"
+                sizeText="14px"
+                border="2px solid #28DF99"
+              />
 
-              <button className="border border-gray-300 bg-white hover:bg-gray-50 text-gray-800 px-8 py-4 rounded-full font-medium transition-all duration-500">
-                See Sample Menu
-              </button>
+              <Button
+                title="See Sample Menu"
+                rounded="45px"
+                bg="white"
+                text="black"
+                hoverText="white"
+                width="170px"
+                height="55px"
+                shadow="0_6px_14px_rgba(18,185,133,0.22)"
+                hoverBg="#2ed2a0"
+                hoverShadow="0_12px_28px_rgba(18,185,133,0.32)"
+                font="poppins"
+                sizeText="14px"
+                border="2px solid #2ed2a0"
+              />
             </div>
 
             {/* Customers */}
@@ -82,7 +107,11 @@ const HeroSection = () => {
 
           {/* Right Content */}
           <div className="flex items-center justify-center">
-            <Image src={CoffeeImage} alt="Food" className="object-cover rounded-[30px]" />
+            <Image
+              src={CoffeeImage}
+              alt="Food"
+              className="object-cover rounded-[30px]"
+            />
           </div>
         </div>
       </div>
