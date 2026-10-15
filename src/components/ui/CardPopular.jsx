@@ -4,7 +4,7 @@ import { Calculator, CircleAlert } from "lucide-react";
 
 export const CardPopular = ({ image, title, cal, protein, includes }) => {
   return (
-    <div className="flex w-[350px] h-full min-h-[480px] flex-col overflow-hidden rounded-[20px] bg-white shadow-md transition-shadow hover:shadow-lg">
+    <div className="flex w-[350px] h-full min-h-[480px] flex-col overflow-hidden rounded-[20px] bg-white border border-transparent shadow-[0_5px_15px_2px_rgba(0,0,0,0.16)] transition-all duration-300 ease-out hover:-translate-y-2 hover:border-[#12B985]/70 hover:shadow-[0_12px_30px_4px_rgba(18,185,133,0.30)]">
       {/* Image */}
       <div className="relative h-[200px] w-full shrink-0">
         <Image

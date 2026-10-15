@@ -1,6 +1,9 @@
-"use client";
-export const page = () => {
+import { LoginForm } from "@/components/auth/LoginForm";
+
+export default function LoginPage() {
   return (
-    <div>page</div>
-  )
+    <main className="flex min-h-screen items-center justify-center px-4">
+      <LoginForm />
+    </main>
+  );
 }
