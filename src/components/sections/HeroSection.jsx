@@ -1,3 +1,5 @@
+"use client"
+
 import CoffeeImage from "../../../public/Coffee_IMG_1.jpg";
 import Image from "next/image";
 import Button from "../ui/Button";

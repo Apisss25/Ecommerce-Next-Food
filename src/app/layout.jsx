@@ -1,4 +1,7 @@
 import "./globals.css";
+import { getCurrentUser } from "@/lib/session";
+import { AuthProvider } from "@/components/auth/AuthProvider";
+
 import {
   alegreya,
   bitter,
@@ -16,7 +19,9 @@ export const metadata = {
   title: "Food Ecommerce",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  const user = await getCurrentUser();
+
   return (
     <html lang="en">
       <body
@@ -33,7 +38,7 @@ export default function RootLayout({ children }) {
         ${slabo.variable}
       `}
       >
-        {children}
+        <AuthProvider user={user}>{children}</AuthProvider>
       </body>
     </html>
   );

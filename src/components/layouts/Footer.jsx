@@ -1,5 +1,6 @@
-import React from "react";
-import { columns } from "../../../Data"; 
+"use client";
+
+import { columns } from "../../../Data";
 import { legalLinks } from "../../../Data";
 
 export const Footer = () => {

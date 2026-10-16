@@ -1,4 +1,4 @@
-import React from "react";
+"use client"
 import { dataPopular } from "../../../Data";
 import { CardPopular } from "../ui/CardPopular";
 import Button from "../ui/Button";

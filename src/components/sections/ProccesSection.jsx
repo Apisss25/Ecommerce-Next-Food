@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import { ChevronRight } from "lucide-react";
 
 import { dataProcces } from "../../../Data";

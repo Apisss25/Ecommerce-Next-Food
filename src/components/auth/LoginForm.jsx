@@ -6,7 +6,7 @@ import { Eye, EyeOff } from "lucide-react";
 import { loginAction } from "@/actions/auth";
 
 const inputClass =
-  "w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm text-neutral-900 placeholder-neutral-300 outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20";
+  "w-full rounded-xl border border-neutral-400 bg-white px-4 py-3 text-sm text-neutral-900 placeholder-neutral-300 outline-none transition focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20";
 
 export const LoginForm = () => {
   const [state, formAction, pending] = useActionState(loginAction, null);
